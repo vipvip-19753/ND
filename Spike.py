@@ -14,7 +14,7 @@ from datetime import datetime, timedelta, timezone
 # Database Configuration
 MONGO_URI = 'mongodb+srv://harry:Sachdeva@cluster1.b02ct.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1'
 client = MongoClient(MONGO_URI)
-db = client['NARENDRA']
+db = client['THOR']
 users_collection = db['users']
 settings_collection = db['settings']  # A new collection to store global settings
 redeem_codes_collection = db['redeem_codes']
